@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Rabtah', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    display: flexbox;
+    justify-content: center;
+
+}
+
+.card-body {
+
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-body .card-title {
+    padding-top: 40px;
+}
+
+.articla {
+    display: flex;
+    margin-left: 400px;
+    padding-top: 40px;
+}
+
+.main-container {
+    padding-top: 20px;
+    width: 80%;
+    height: auto;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.span {
+    color: white;
+    font-weight: 500;
+}
+
+.span:hover {
+    color: orange;
+    transition: all 2s ease-in-out;
+}
+
+.container-fluid .navbar-toggler:hover {
+    background-color: orange;
+    transition: all 2s ease-in-out;
+
+}
+
+.Featured-content {
+    margin-left: 400px;
+    padding-top: 20px;
+    height: auto;
+}
+
+.Featured-content .card {
+    display: flex;
+
+    font-weight: 200;
+    height: 100px;
+
+}
+
+
+.Featured-content .card-body a {
+
+    color: black;
+    float: inline-end;
+    padding-top: 1rem;
+    border: black;
+
+}
+
+.Featured-content .card-body a:hover {
+    color: rgb(15, 119, 238);
+}
+
+.content-img img {
+    width: 1000px;
+
+
+    border-radius: 6px;
+    align-items: center;
+}
+
+.para {
+    display: flex;
+
+    width: 300%;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 400px;
+    font-weight: 500;
+    border: none;
+
+
+
+}

@@ -1,0 +1,62 @@
+@media (max-width: 767px) {
+
+    /* Collapse the navbar on mobile screens */
+    .container-fluid {
+        display: flex;
+        /* position: relative; */
+        padding-top: 2%;
+        background-color: rgb(37, 150, 150);
+
+    }
+
+    .container-fluid .navbar-toggler {
+        background-color: black;
+    }
+
+    .container-fluid .span {
+        margin-left: 0%;
+        color: black;
+
+    }
+
+    nav ul.show {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin: 0;
+    }
+
+    nav a {
+        padding: 10px;
+        border-bottom: 1px solid #555;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+
+    nav a:hover {
+        color: #fff;
+        background-color: #555;
+    }
+
+    /* Adjust the card layout on mobile screens */
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    .btn-dark {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
